@@ -120,3 +120,23 @@ body{
 .app-down:nth-child(2){
   background-image: url('./img/googleplay-button.png');
 }
+
+@media(max-width:1024px){
+  .igpage{
+    width: 90%;
+  }
+}
+
+@media(max-width:650px){
+  .igpage{
+    width: 90%;
+  }
+
+  .igpage__phone{
+    display: none;
+  }
+
+  .igpage__start{
+    width: 100%;
+  }
+}
