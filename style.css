@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+}
+
+.igpage{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f3f3f3;
+}
+
+.igpage__phone img{
+  max-width: 700px;
+  width: 100%
+}
+
+.igpage__start{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.igpage__start--login{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  justify-content: space-around;
+  align-items: center;
+  height: 266px;
+  max-width: 460px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  background-color: #fff;
+
+
+
+}
+
+.iglogo{
+  max-width: 150px;
+  width: 100%;
+}
+
+.perfil{
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.continue{
+  background-color: #0095f6;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+
+}
+
+.remove{
+  text-decoration: none;
+  color: #0095f6;
+}
+
+.igpage__start--logout{
+  border: 1px solid lightgray;
+  max-width: 460px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+
+}
