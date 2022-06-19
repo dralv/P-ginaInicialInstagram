@@ -1,49 +1,76 @@
 *{
   margin: 0;
+  padding: 0;
+  box-sizing:border-box;  
+  font-size: 14px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .igpage{
+ display: flex;
+ align-items: center;
+ justify-content: start;
+ width: 60%;
+ height: 100vh;
+}
+
+.igpage__phone{
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
-  background-color: #f3f3f3;
+  width: 50%;
 }
 
 .igpage__phone img{
-  max-width: 700px;
-  width: 100%
+  height: 50rem;
 }
 
 .igpage__start{
   display: flex;
   flex-direction: column;
-  
+  justify-content: space-around;
+  width: 50%;
+  min-height: 34rem;
 }
 
 .igpage__start--login{
   display: flex;
   flex-direction: column;
   border: 1px solid lightgray;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 266px;
-  max-width: 460px;
-  margin-top: 120px;
-  margin-bottom: 20px;
   background-color: #fff;
-
-
-
+  width:100%;
+  padding: 1.3rem 0;
+  margin-bottom: 1rem
 }
 
+.igpage__start--login:nth-child(1){
+  min-height: 25rem;
+  margin-bottom: 1rem;
+}
+
+
+
 .iglogo{
-  max-width: 150px;
-  width: 100%;
+  width: 30%;
 }
 
 .perfil{
-  max-width: 100px;
+  width: 25%;
   border-radius: 100%;
+  overflow: hidden;
 }
 
 .continue{
@@ -60,14 +87,36 @@
   color: #0095f6;
 }
 
-.igpage__start--logout{
-  border: 1px solid lightgray;
-  max-width: 460px;
-  height: 70px;
+
+
+.igpage__start--download{
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   align-items: center;
+  width: 100%;
   justify-content: center;
+  padding: 1;
+}
 
+.apps {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  
+}
+
+.app-down{
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-down:nth-child(1){
+  background-image: url('./img/apple-button.png');
+}
+
+.app-down:nth-child(2){
+  background-image: url('./img/googleplay-button.png');
 }
